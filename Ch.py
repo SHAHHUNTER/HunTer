@@ -8,21 +8,19 @@ from time import sleep
 from colorama import Fore
 import sys
 print("")
-  print(Fore.RED+"    "+" Loading....")
-  sleep(2.0)
-  os.system("clear")
-  print("\n")
-  gty =Fore.GREEN+"""
+print(Fore.RED+"    "+" Loading....")
+sleep(2.0)
+os.system("clear")
+print("\n")
+print(Fore.GREEN+"""
      Loading Conected Server ... 
-  """
-  print(gty)
-  sleep(2.0)
-  print("\n"*49)
-  Sgt = """
+  """)
+sleep(2.0)
+print("\n"*49)
+print("""
   Conected Servers :/
-  """
-  print(Sgt)
-  Dmo = """
+  """)
+Dmo = """
   May 26 22:10:07.000 [notice] Parsing GEOIP IPv6 file /data/data/com.termux/files/usr/share//geoip6.                                                            May 26 22:10:07.000 [notice] Bootstrapped 0% (starting): Starting
   May 26 22:10:08.000 [notice] Starting with guard context "default"
   May 26 22:10:09.000 [warn] Problem bootstrapping. Stuck at 0% (starting): Starting. (Network is unreachable; NOROUTE; count 1; recommendation warn; host 4623A9EC53BFD83155929E56D6F7B55B5E718C24 at 163.172.157.213:443)
@@ -45,7 +43,7 @@ def random_string_generator(str_size, allowed_chars):
   chars = string.ascii_letters + string.punctuation
   size = 28
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
-print(Fore.RED+'   COOD Filteri CHANELL >> ', random_string_generator(size, chars))
+print(Fore.RED+'   COOD Filteri CHANELL >> ',random_string_generator(size, chars))
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
 input()
 os.system("python Meno.py")
