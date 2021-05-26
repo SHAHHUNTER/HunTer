@@ -12,10 +12,9 @@ print(Fore.RED+"    "+" Loading....")
 sleep(2.0)
 os.system("clear")
 print("\n")
-gty =Fore.GREEN+"""
+print(Fore.GREEN+"""
      Loading Conected Server ... 
-  """
-print(gty)
+  """)
 sleep(2.0)
 print("\n"*49)
 Sdf = """
@@ -30,7 +29,7 @@ Sdf = """
     [*] https://grimler.se/termux-packages-24: bad
     [*] https://main.termux-mirror.ml: bad
     [*] https://termux.mentality.rip/termux-packages-24: bad
-‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌
+‌‌
     Using fallback mirror: https://termux.org/packages
     Reading package lists... Done
     Building dependency tree
@@ -47,7 +46,7 @@ sleep(2.1)
 print()
 def random_string_genera_variable_size(min_size, max_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(randint(min_size, max_size)))
-  chars = string.ascii_letters + string.punctuation
+chars = string.ascii_letters + string.punctuation
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
 print("     "+Fore.YELLOW+'COOD Filteri User id ★★★★★★★ >>> ', random_string_genera_variable_size(6, 12, chars))
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
