@@ -15,10 +15,10 @@ print("\n")
 gty =Fore.GREEN+"""
      Loading Conected Server ... 
   """
-  print(gty)
-  sleep(2.0)
-  print("\n"*49)
-  Sdf = """
+print(gty)
+sleep(2.0)
+print("\n"*49)
+Sdf = """
     update Cod ......
     
     
