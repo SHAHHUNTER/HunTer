@@ -40,8 +40,8 @@ print(Fore.RED+"    CreaTor cod Loafing ....")
 sleep(2.1)
 def random_string_generator(str_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(str_size))
-  chars = string.ascii_letters + string.punctuation
-  size = 28
+chars = string.ascii_letters + string.punctuation
+size = 28
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
 print(Fore.RED+'   COOD Filteri CHANELL >> ',random_string_generator(size, chars))
 print(Fore.GREEN+"    "+"|"+"-"*50+"|")
